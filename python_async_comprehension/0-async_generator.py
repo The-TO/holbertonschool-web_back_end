@@ -4,6 +4,7 @@ import asyncio
 import random
 from typing import AsyncGenerator
 
+
 async def async_generator() -> AsyncGenerator[float, None]:
     """coucou vous allez bien"""
     for _ in range(10):
